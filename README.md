@@ -13,4 +13,4 @@ Pour charger un modele .stl:
     -> ouvrir .stl avec paraview
 
 Doc:
-    volume.py #Script permettant d'ouvrir le volume sous forme de Numpy array 3D
+    model/volume.py #Script permettant d'ouvrir le volume sous forme de Numpy array 3D
