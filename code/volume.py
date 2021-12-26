@@ -103,6 +103,5 @@ def read_itk_metaimage(filename, order=[2, 1, 0]):
 if __name__ == "__main__":
     filename = sys.argv[1] if len(sys.argv) > 1 else 'volume.mhd'
     volume = read_itk_metaimage(filename)
-    write_ITK_metaimage(volume,"test")
     print(volume.shape)
     print("volume = {0}%".format(100 * volume.sum() / volume.size))
